@@ -248,6 +248,32 @@ MonoBehaviour:
   highlightsEnd:
     m_OverrideState: 1
     m_Value: 1
+--- !u!114 &-5812493263016408144
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e755fa8428c29bf4c91c8fd73ae80010, type: 3}
+  m_Name: RuleFadeVolume
+  m_EditorClassIdentifier: 
+  active: 1
+  strength:
+    m_OverrideState: 1
+    m_Value: 0
+  color:
+    m_OverrideState: 1
+    m_Value: {r: 0, g: 0, b: 0, a: 1}
+    hdr: 0
+  ruleTexture:
+    m_OverrideState: 1
+    m_Value: {fileID: 0}
+  vague:
+    m_OverrideState: 1
+    m_Value: 0.2
 --- !u!114 &-4210620904635426390
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -288,6 +314,31 @@ MonoBehaviour:
   blueOutBlueIn:
     m_OverrideState: 1
     m_Value: 100
+--- !u!114 &-4075769078831381118
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47918d516f9b3da41a14d4ac0a02a073, type: 3}
+  m_Name: FishEyeVolume
+  m_EditorClassIdentifier: 
+  active: 1
+  strength:
+    m_OverrideState: 1
+    m_Value: 0
+  intensityX:
+    m_OverrideState: 1
+    m_Value: 0.5
+  intensityY:
+    m_OverrideState: 1
+    m_Value: 0.5
+  baseSize:
+    m_OverrideState: 1
+    m_Value: 0.15625
 --- !u!114 &-3978695733392391637
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -403,6 +454,44 @@ MonoBehaviour:
   bladeRotation:
     m_OverrideState: 1
     m_Value: 0
+--- !u!114 &-2557335009058787529
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8098de1fb5f56a3428eeab7426a26e7c, type: 3}
+  m_Name: NegaPosiVolume
+  m_EditorClassIdentifier: 
+  active: 1
+  enable:
+    m_OverrideState: 1
+    m_Value: 0
+--- !u!114 &-2348228622465749356
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 666e68c01c63bfe45b16aa4a90e246e4, type: 3}
+  m_Name: VortexVolume
+  m_EditorClassIdentifier: 
+  active: 1
+  angle:
+    m_OverrideState: 1
+    m_Value: 0
+  radius:
+    m_OverrideState: 1
+    m_Value: {x: 0.4, y: 0.4}
+  center:
+    m_OverrideState: 1
+    m_Value: {x: 0.5, y: 0.5}
 --- !u!114 &-1083910812058648046
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -506,6 +595,38 @@ MonoBehaviour:
   - {fileID: -8186968272690591729}
   - {fileID: -3978695733392391637}
   - {fileID: -1083910812058648046}
+  - {fileID: -4075769078831381118}
+  - {fileID: 7535946147327178180}
+  - {fileID: 3869731911588459940}
+  - {fileID: 9082869968941844045}
+  - {fileID: -2348228622465749356}
+  - {fileID: -2557335009058787529}
+  - {fileID: -5812493263016408144}
+  - {fileID: 5385718672751777738}
+  - {fileID: 2855962592809657640}
+  - {fileID: 2221370535736700606}
+  - {fileID: 2065309274322104583}
+  - {fileID: 78998244646555478}
+--- !u!114 &78998244646555478
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fde9de10ef74b1e976daef88cfefdcf, type: 3}
+  m_Name: ColorFadeVolume
+  m_EditorClassIdentifier: 
+  active: 1
+  strength:
+    m_OverrideState: 1
+    m_Value: 0
+  color:
+    m_OverrideState: 1
+    m_Value: {r: 0, g: 0, b: 0, a: 1}
+    hdr: 0
 --- !u!114 &156332030701414761
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -568,6 +689,44 @@ MonoBehaviour:
   maxNits:
     m_OverrideState: 1
     m_Value: 1000
+--- !u!114 &2065309274322104583
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8610956a1fa595e48a9742ef0cd5251f, type: 3}
+  m_Name: TwirlVolume
+  m_EditorClassIdentifier: 
+  active: 1
+  angle:
+    m_OverrideState: 1
+    m_Value: 0
+  radius:
+    m_OverrideState: 1
+    m_Value: {x: 0.3, y: 0.3}
+  center:
+    m_OverrideState: 1
+    m_Value: {x: 0.5, y: 0.5}
+--- !u!114 &2221370535736700606
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f85180b3e93778c41b007c946662799e, type: 3}
+  m_Name: MotionBlurVolume
+  m_EditorClassIdentifier: 
+  active: 1
+  strength:
+    m_OverrideState: 1
+    m_Value: 0
 --- !u!114 &2332282131777942337
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -635,6 +794,22 @@ MonoBehaviour:
   tint:
     m_OverrideState: 1
     m_Value: 0
+--- !u!114 &2855962592809657640
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a10f5ab09b941ce824ed29c9ed81f81, type: 3}
+  m_Name: CaptureVolume
+  m_EditorClassIdentifier: 
+  active: 1
+  enable:
+    m_OverrideState: 1
+    m_Value: 0
 --- !u!114 &3460444317416099510
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -651,6 +826,41 @@ MonoBehaviour:
   intensity:
     m_OverrideState: 1
     m_Value: 0
+--- !u!114 &3869731911588459940
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a252d6147d115747abb49c226e56774, type: 3}
+  m_Name: SepiaVolume
+  m_EditorClassIdentifier: 
+  active: 1
+  strength:
+    m_OverrideState: 1
+    m_Value: 0
+--- !u!114 &5385718672751777738
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d65a8a138eb021478b74f87acf42138, type: 3}
+  m_Name: MosaicVolume
+  m_EditorClassIdentifier: 
+  active: 1
+  size:
+    m_OverrideState: 1
+    m_Value: 1
+  referenceResolution:
+    m_OverrideState: 1
+    m_Value: {x: 800, y: 600}
 --- !u!114 &5762530381802164056
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -718,6 +928,22 @@ MonoBehaviour:
   chromaticAbberationIntensity:
     m_OverrideState: 1
     m_Value: 0.5
+--- !u!114 &7535946147327178180
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51089edbd6220b0408a3b2d9c2c1de73, type: 3}
+  m_Name: GrayScaleVolume
+  m_EditorClassIdentifier: 
+  active: 1
+  strength:
+    m_OverrideState: 1
+    m_Value: 0
 --- !u!114 &7933203426823181213
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -774,6 +1000,31 @@ MonoBehaviour:
   rounded:
     m_OverrideState: 1
     m_Value: 0
+--- !u!114 &9082869968941844045
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3157029ba694a14a88261513c494a07, type: 3}
+  m_Name: BlurVolume
+  m_EditorClassIdentifier: 
+  active: 1
+  blurSize:
+    m_OverrideState: 1
+    m_Value: 0
+  blurType:
+    m_OverrideState: 1
+    m_Value: 0
+  downSample:
+    m_OverrideState: 1
+    m_Value: 1
+  blurIterations:
+    m_OverrideState: 1
+    m_Value: 2
 --- !u!114 &9099548931283147545
 MonoBehaviour:
   m_ObjectHideFlags: 3
